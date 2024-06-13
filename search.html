@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Search</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">Recruitment Solution</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="search.html">Candidate Search</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="form-container">
+        <h2>Candidate Search</h2>
+        <form>
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+          </div>
+          <div>
+            <label for="job-role">Job Role:</label>
+            <input type="text" id="job-role" name="job-role" required>
+          </div>
+          <button type="submit" class="button">Search</button>
+        </form>
+        <section id="candidate-results">
+          <!-- Candidate results will be listed here -->
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Digital Recruitment Solution. All rights reserved.</p>
+    </footer>
+  </body>
+
+</html>

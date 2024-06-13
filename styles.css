@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.logo {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #45a049;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+  background-color: #4CAF50;
+  border-radius: 4px;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  /* padding: 1em 0; */
+  background-color: #2d2d2d;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.hero .button {
+  padding: 0.8em 2em;
+  font-size: 1.2em;
+}
+
+/* Features Section */
+.features {
+  padding: 2em 0;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.features ul li {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
+/* Form Container */
+.form-container {
+  padding: 2em;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form-container form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form div label {
+  margin-bottom: 0.5em;
+}
+
+.form-container form div input {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 0.8em 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.form-container p {
+  text-align: center;
+  margin-top: 1em;
+}
+
+#candidate-results {
+  margin-top: 2em;
+}
